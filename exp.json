@@ -13,9 +13,33 @@
     "hideExponentText": false
   },
   "packagerOpts": {
-    "assetExts": ["ttf", "mp4"]
+    "assetExts": [
+      "ttf",
+      "mp4"
+    ]
   },
   "ios": {
-    "supportsTablet": true
+    "buildNumber": "0",
+    "bundleIdentifier": "com.centriq.centriq",
+    "supportsTablet": false,
+    "publishBundlePath": "ios/expo-auth0/Supporting/shell-app.bundle",
+    "publishManifestPath": "ios/expo-auth0/Supporting/shell-app-manifest.json"
+  },
+  "android": {
+    "config": {
+      "fabric": {
+        "apiKey": "d97e48b2df7d4dd16bc140f4038b361ebb2795e2",
+        "buildSecret": "01d875e1aba521e425e22680344954649e05b95ab4402e5d8d8c17439ded8e58"
+      }
+    },
+    "package": "com.centriqhome.centriq",
+    "versionCode": 4
+  },
+  "scheme": "exp20089b3d1be7456c91f58e5f73c5f4bf",
+  "isDetached": true,
+  "detach": {
+    "scheme": "exp20089b3d1be7456c91f58e5f73c5f4bf",
+    "iosExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/ios-v2.0.4-sdk22.0.0-10110e7c-e9b1-43e6-b7e0-8a0e971480e8.tar.gz",
+    "androidExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/android-v2.0.0-exp.0-sdk22.0.0-bcb62dac-b993-47ff-951b-e8ecf086f9e0.tar.gz"
   }
 }
